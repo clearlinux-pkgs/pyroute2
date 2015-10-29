@@ -4,12 +4,12 @@
 #
 Name     : pyroute2
 Version  : 0.3.14
-Release  : 1
+Release  : 2
 URL      : https://pypi.python.org/packages/source/p/pyroute2/pyroute2-0.3.14.tar.gz
 Source0  : https://pypi.python.org/packages/source/p/pyroute2/pyroute2-0.3.14.tar.gz
 Summary  : Python Netlink library
 Group    : Development/Tools
-License  : Apache-2.0 GPL-2.0 GPL-2.0+ dual
+License  : Apache-2.0 GPL-2.0 GPL-2.0+
 Requires: pyroute2-python
 BuildRequires : pbr
 BuildRequires : pip
