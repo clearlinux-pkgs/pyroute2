@@ -4,7 +4,7 @@
 #
 Name     : pyroute2
 Version  : 0.3.15
-Release  : 3
+Release  : 4
 URL      : https://pypi.python.org/packages/source/p/pyroute2/pyroute2-0.3.15.tar.gz
 Source0  : https://pypi.python.org/packages/source/p/pyroute2/pyroute2-0.3.15.tar.gz
 Summary  : Python Netlink library
