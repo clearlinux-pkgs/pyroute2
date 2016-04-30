@@ -4,7 +4,7 @@
 #
 Name     : pyroute2
 Version  : 0.3.21
-Release  : 9
+Release  : 10
 URL      : https://pypi.python.org/packages/source/p/pyroute2/pyroute2-0.3.21.tar.gz
 Source0  : https://pypi.python.org/packages/source/p/pyroute2/pyroute2-0.3.21.tar.gz
 Summary  : Python Netlink library
