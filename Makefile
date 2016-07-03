@@ -1,5 +1,5 @@
 PKG_NAME := pyroute2
-URL := https://pypi.python.org/packages/source/p/pyroute2/pyroute2-0.3.21.tar.gz
+URL := http://pypi.debian.net/pyroute2/pyroute2-0.4.4.tar.gz
 ARCHIVES :=
 
 include ../common/Makefile.common

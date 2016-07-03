@@ -1,6 +1,39 @@
 changelog
 =========
 
+* 0.4.4
+    * iproute: #262 -- `get_vlans()` fix
+    * iproute: default mask 32 for IPv4 in `addr()`
+    * rtmsg: #260 -- RTA_FLOW support
+* 0.4.3
+    * ipdb: #259 -- critical `Interface` class fix
+    * benchmark: initial release
+* 0.4.2
+    * ipdb: event modules
+    * ipdb: on-demand views
+    * ipdb: rules management
+    * ipdb: bridge controls
+    * ipdb: #258 -- important Python compatibility fixes
+    * netns: #257 -- pipe leak fix
+    * netlink: support pickling for nlmsg
+* 0.4.1
+    * netlink: no buffer copying in the parser
+    * netlink: parse NLA on demand
+    * ipdb: #244 -- lwtunnel multipath fixes
+    * iproute: #235 -- route types
+    * docs updated
+* 0.4.0
+    * ACHTUNG: old kernels compatibility code is dropped
+    * ACHTUNG: IPDB uses two separate sockets for monitoring and commands
+    * ipdb: #244 -- multipath lwtunnel
+    * ipdb: #242 -- AF_MPLS routes
+    * ipdb: #241, #234 -- fix create(..., reuse=True)
+    * ipdb: #239 -- route encap and metrics fixed
+    * ipdb: #238 -- generic port management
+    * ipdb: #235 -- support route scope and type
+    * ipdb: #230, #232 -- routes GC (work in progress)
+    * rtnl: #245 -- do not fail if `/proc/net/psched` doesn't exist
+    * rtnl: #233 -- support VRF interfaces (requires net-next)
 * 0.3.21
     * ipdb: #231 -- return `ipdb.common` as deprecated
 * 0.3.20
