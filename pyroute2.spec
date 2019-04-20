@@ -4,7 +4,7 @@
 #
 Name     : pyroute2
 Version  : 0.5.5
-Release  : 24
+Release  : 25
 URL      : https://files.pythonhosted.org/packages/b0/f2/8874ee4a8abb5d5e5b96b4f2f31391c860fe2267bce3e58bcead335e02bf/pyroute2-0.5.5.tar.gz
 Source0  : https://files.pythonhosted.org/packages/b0/f2/8874ee4a8abb5d5e5b96b4f2f31391c860fe2267bce3e58bcead335e02bf/pyroute2-0.5.5.tar.gz
 Summary  : Python Netlink library
