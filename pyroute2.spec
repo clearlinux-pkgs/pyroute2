@@ -4,7 +4,7 @@
 #
 Name     : pyroute2
 Version  : 0.5.9
-Release  : 31
+Release  : 32
 URL      : https://files.pythonhosted.org/packages/26/61/19678dc36079e3297951a7b75fca3d531e7dc2d463c96bca0ce8c1305109/pyroute2-0.5.9.tar.gz
 Source0  : https://files.pythonhosted.org/packages/26/61/19678dc36079e3297951a7b75fca3d531e7dc2d463c96bca0ce8c1305109/pyroute2-0.5.9.tar.gz
 Summary  : Python Netlink library
@@ -54,6 +54,7 @@ python components for the pyroute2 package.
 Summary: python3 components for the pyroute2 package.
 Group: Default
 Requires: python3-core
+Provides: pypi(pyroute2)
 
 %description python3
 python3 components for the pyroute2 package.
@@ -68,7 +69,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1581604578
+export SOURCE_DATE_EPOCH=1583209275
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
