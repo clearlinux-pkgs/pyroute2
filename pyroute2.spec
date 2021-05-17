@@ -4,7 +4,7 @@
 #
 Name     : pyroute2
 Version  : 0.5.19
-Release  : 50
+Release  : 51
 URL      : https://files.pythonhosted.org/packages/8d/65/86576abac356ab286a685e1153f9cb478a7a716ba06aa553177fe465ba75/pyroute2-0.5.19.tar.gz
 Source0  : https://files.pythonhosted.org/packages/8d/65/86576abac356ab286a685e1153f9cb478a7a716ba06aa553177fe465ba75/pyroute2-0.5.19.tar.gz
 Summary  : Python Netlink library
@@ -69,7 +69,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1621267028
+export SOURCE_DATE_EPOCH=1621275705
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -91,6 +91,9 @@ python3 -tt setup.py build  install --root=%{buildroot}
 echo ----[ mark ]----
 cat %{buildroot}/usr/lib/python3*/site-packages/*/requires.txt || :
 echo ----[ mark ]----
+## install_append content
+rm -rf %{buildroot}/usr/lib/python3*/site-packages/tests
+## install_append end
 
 %files
 %defattr(-,root,root,-)
