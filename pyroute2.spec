@@ -4,7 +4,7 @@
 #
 Name     : pyroute2
 Version  : 0.6.5
-Release  : 60
+Release  : 61
 URL      : https://files.pythonhosted.org/packages/27/11/2094bee4d33171a688433136dd4c68819707fbc246d22c6e19896de9a5c3/pyroute2-0.6.5.tar.gz
 Source0  : https://files.pythonhosted.org/packages/27/11/2094bee4d33171a688433136dd4c68819707fbc246d22c6e19896de9a5c3/pyroute2-0.6.5.tar.gz
 Summary  : Python Netlink library
